@@ -60,7 +60,7 @@ const ContactPage = () => {
             <ul className="mt-6 space-y-4 font-sans text-sm">
               <li className="flex items-start gap-3"><span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/10"><MapPin className="h-4 w-4 text-primary" /></span> Sacré-Cœur 3, VDN<br />Dakar, Sénégal</li>
               <li className="flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10"><Phone className="h-4 w-4 text-primary" /></span> +221 77 866 70 02</li>
-              <li className="flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10"><Mail className="h-4 w-4 text-primary" /></span> techxele@gmail.com</li>
+              <li className="flex items-center gap-3"><span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10"><Mail className="h-4 w-4 text-primary" /></span> techdeal@gmail.com</li>
             </ul>
             <div className="mt-6 pt-6 border-t border-white/15">
               <p className="font-sans text-xs uppercase tracking-wider text-white/70">Suivez-nous</p>
@@ -77,7 +77,7 @@ const ContactPage = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden shadow-elegant aspect-[4/3] border border-border">
             <iframe
-              title="Localisation Tech-Xel à Dakar"
+              title="Localisation Tech-Deal à Dakar"
               src="https://www.google.com/maps?q=Sacre-Coeur+3,+Dakar,+Senegal&output=embed"
               className="w-full h-full"
               loading="lazy"

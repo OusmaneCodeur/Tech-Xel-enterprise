@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tech-Xel Design System
+/* Tech-Deal Design System
    Couleurs: Orange #FF7900 / Bleu nuit #0A1F44 / Blanc
    Typographies: Proxima Nova (titres) / Lora (paragraphes) / Raleway Light (secondaires)
    Toutes les couleurs sont en HSL.
@@ -19,12 +19,12 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 74% 15%;
 
-    /* Orange Tech-Xel */
+    /* Orange Tech-Deal */
     --primary: 28 100% 50%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 28 100% 60%;
 
-    /* Bleu nuit Tech-Xel */
+    /* Bleu nuit Tech-Deal */
     --secondary: 222 74% 15%;
     --secondary-foreground: 0 0% 100%;
 

@@ -19,10 +19,10 @@ const Hero = () => {
             Concevons votre <span className="text-gradient-orange">avenir digital</span>, ensemble.
           </h1>
           <p className="mt-5 font-body text-lg text-white/85 italic">
-            « Defar ak xarala, liggéey ak xél. »
+            « Des solutions digitales modernes pour faire grandir vos ambitions. »
           </p>
           <p className="mt-3 font-sans font-light text-white/75 max-w-xl">
-            Tech-Xel accompagne les entreprises, startups et institutions du Sénégal et d'ailleurs
+            Tech-Deal accompagne les entreprises, startups et institutions du Sénégal et d'ailleurs
             dans la création de produits digitaux performants — du web à l'intelligence artificielle.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="relative rounded-3xl overflow-hidden shadow-hover ring-1 ring-white/10">
             <img
               src={heroImg}
-              alt="Équipe Tech-Xel collaborant sur des interfaces holographiques"
+              alt="Équipe Tech-Deal collaborant sur des interfaces holographiques"
               width={1536}
               height={1024}
               className="w-full h-auto"

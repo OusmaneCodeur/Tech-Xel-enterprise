@@ -8,7 +8,7 @@ interface LogoProps {
 const Logo = ({ variant = "dark" }: LogoProps) => {
   const textColor = variant === "light" ? "text-white" : "text-secondary";
   return (
-    <Link to="/" className="flex min-w-0 max-w-[min(100%,14rem)] items-center gap-2 sm:gap-3 group shrink-0" aria-label="Tech-Xel accueil">
+    <Link to="/" className="flex min-w-0 max-w-[min(100%,14rem)] items-center gap-2 sm:gap-3 group shrink-0" aria-label="Tech-Deal accueil">
       <img
         src={logoImg}
         alt=""
@@ -19,7 +19,7 @@ const Logo = ({ variant = "dark" }: LogoProps) => {
         }`}
       />
       <span className={`font-display text-lg sm:text-xl font-bold tracking-tight truncate ${textColor}`}>
-        Tech<span className="text-primary">-</span>Xel
+        Tech<span className="text-primary">-</span>Deal
       </span>
     </Link>
   );

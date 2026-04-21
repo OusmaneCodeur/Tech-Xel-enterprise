@@ -9,8 +9,8 @@ const Footer = () => {
         <div>
           <Logo variant="light" />
           <p className="mt-4 font-body text-sm text-white/70 leading-relaxed">
-            Defar ak xarala, liggéey ak xél. Nous concevons des solutions digitales qui
-            propulsent votre entreprise vers l'avenir.
+            Tech-Deal conçoit des solutions digitales modernes qui accélèrent la croissance
+            de votre entreprise.
           </p>
           <div className="mt-5 flex gap-3">
             {[Facebook, Linkedin, Twitter, Instagram].map((Icon, i) => (
@@ -54,13 +54,13 @@ const Footer = () => {
           <ul className="mt-4 space-y-3 font-sans text-sm text-white/80">
             <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-primary shrink-0" /> Sacré-Cœur 3, Dakar, Sénégal</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> +221 77 866 70 02</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> techxele@gmail.com</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> techdeal@gmail.com</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/10">
         <div className="container mx-auto container-px py-5 text-center font-sans text-xs text-white/60">
-          © {new Date().getFullYear()} Tech-Xel — Tous droits réservés.
+          © {new Date().getFullYear()} Tech-Deal — Tous droits réservés.
         </div>
       </div>
     </footer>

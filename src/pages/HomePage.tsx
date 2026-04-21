@@ -22,9 +22,9 @@ const HomePage = () => {
               Une équipe sénégalaise <br />passionnée par <span className="text-gradient-orange">la tech</span>
             </h2>
             <p className="mt-5 font-body text-muted-foreground leading-relaxed">
-              Tech-Xel — littéralement « construire avec la technologie, travailler avec l'esprit » en wolof —
-              est une entreprise technologique basée à Dakar. Nous accompagnons des marques ambitieuses
-              dans leur transformation digitale grâce à des solutions sur-mesure et performantes.
+              Tech-Deal est une entreprise technologique basée à Dakar. Nous accompagnons des
+              marques ambitieuses dans leur transformation digitale avec des solutions modernes,
+              sur mesure et orientées résultats.
             </p>
             <div className="mt-8 grid sm:grid-cols-2 gap-4">
               {[
@@ -41,14 +41,14 @@ const HomePage = () => {
               ))}
             </div>
             <Button asChild variant="outlineDark" className="mt-8">
-              <Link to="/a-propos">En savoir plus sur Tech-Xel</Link>
+              <Link to="/a-propos">En savoir plus sur Tech-Deal</Link>
             </Button>
           </div>
           <div className="relative">
             <div className="absolute -inset-6 bg-gradient-orange opacity-20 blur-2xl rounded-3xl" />
             <img
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
-              alt="Équipe Tech-Xel en réunion"
+              alt="Équipe Tech-Deal en réunion"
               loading="lazy"
               width={1200}
               height={800}

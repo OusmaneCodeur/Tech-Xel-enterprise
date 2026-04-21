@@ -9,19 +9,19 @@ const AboutPage = () => {
     <>
       <PageHeader
         eyebrow="À propos"
-        title={<>L'équipe derrière <span className="text-gradient-orange">Tech-Xel</span></>}
+        title={<>L'équipe derrière <span className="text-gradient-orange">Tech-Deal</span></>}
         description="Nous sommes une agence technologique sénégalaise qui combine excellence technique, créativité et profondeur culturelle pour bâtir l'Afrique digitale de demain."
       />
 
       {/* Présentation */}
       <section className="section-y">
         <div className="container mx-auto container-px grid lg:grid-cols-2 gap-12 items-center">
-          <img src={teamImg} alt="Équipe Tech-Xel" loading="lazy" width={1536} height={1024} className="rounded-3xl shadow-elegant w-full h-auto object-cover aspect-[4/3]" />
+          <img src={teamImg} alt="Équipe Tech-Deal" loading="lazy" width={1536} height={1024} className="rounded-3xl shadow-elegant w-full h-auto object-cover aspect-[4/3]" />
           <div>
             <p className="font-sans text-sm uppercase tracking-[0.2em] text-primary font-medium">Notre histoire</p>
             <h2 className="mt-3 font-display text-3xl md:text-4xl font-bold text-secondary">Construire avec la tech, travailler avec l'esprit</h2>
             <p className="mt-5 font-body text-muted-foreground leading-relaxed">
-              Fondée à Dakar en 2020, Tech-Xel est née d'une conviction : l'Afrique a besoin d'agences
+              Fondée à Dakar en 2020, Tech-Deal est née d'une conviction : l'Afrique a besoin d'agences
               technologiques locales, exigeantes, capables de rivaliser avec les meilleurs ailleurs.
             </p>
             <p className="mt-3 font-body text-muted-foreground leading-relaxed">

@@ -10,7 +10,7 @@ const TestimonialsMarquee = () => {
         <p className="font-sans text-sm uppercase tracking-[0.2em] text-primary font-medium">Témoignages</p>
         <h2 className="mt-3 font-display text-3xl md:text-4xl font-bold text-secondary">Ils nous font confiance</h2>
         <p className="mt-3 font-body text-muted-foreground max-w-2xl mx-auto">
-          Des entreprises, startups, organisateurs et particuliers qui ont propulsé leurs projets avec Tech-Xel.
+          Des entreprises, startups, organisateurs et particuliers qui ont propulsé leurs projets avec Tech-Deal.
         </p>
       </div>
 

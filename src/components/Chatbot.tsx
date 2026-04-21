@@ -5,15 +5,15 @@ import { Button } from "@/components/ui/button";
 interface Msg { role: "user" | "bot"; text: string }
 
 const knowledge: { keywords: string[]; reply: string }[] = [
-  { keywords: ["bonjour", "salut", "hello", "coucou", "hey"], reply: "Bonjour 👋 Je suis Xela, l'assistante virtuelle de Tech-Xel. Comment puis-je vous aider ?" },
+  { keywords: ["bonjour", "salut", "hello", "coucou", "hey"], reply: "Bonjour 👋 Je suis Xela, l'assistante virtuelle de Tech-Deal. Comment puis-je vous aider ?" },
   { keywords: ["service", "offre", "proposez"], reply: "Nous proposons : Développement Web, Mobile, Design UI/UX, Marketing Digital, IA et Conseil. Quel domaine vous intéresse ?" },
   { keywords: ["prix", "tarif", "devis", "coût", "cout"], reply: "Chaque projet est unique. Cliquez sur \"Demander un devis\" en haut, ou rendez-vous sur la page Contact. Nous revenons vers vous sous 24h." },
-  { keywords: ["contact", "joindre", "appeler", "email", "téléphone", "telephone"], reply: "Vous pouvez nous joindre au +221 77 866 70 02 ou techxele@gmail.com. Notre bureau est à Sacré-Cœur 3, Dakar." },
+  { keywords: ["contact", "joindre", "appeler", "email", "téléphone", "telephone"], reply: "Vous pouvez nous joindre au +221 77 866 70 02 ou techdeal@gmail.com. Notre bureau est à Sacré-Cœur 3, Dakar." },
   { keywords: ["mobile", "application", "app"], reply: "Nous développons des apps iOS & Android natives et React Native, performantes et belles. Voulez-vous voir nos projets ?" },
   { keywords: ["web", "site", "internet"], reply: "Sites vitrines, e-commerce, plateformes SaaS — nous codons sur-mesure avec React, Next.js et des stacks modernes." },
   { keywords: ["ia", "intelligence", "ai"], reply: "Notre équipe intègre des solutions d'IA : chatbots, vision par ordinateur, analyse prédictive, automatisation." },
   { keywords: ["délai", "delai", "temps", "durée"], reply: "Un site vitrine : 2 à 4 semaines. Une app mobile : 6 à 12 semaines. Précisons cela ensemble lors d'un appel." },
-  { keywords: ["équipe", "equipe", "qui", "vous êtes"], reply: "Tech-Xel rassemble 6 experts passionnés en tech, design et stratégie. Découvrez-les sur la page À propos." },
+  { keywords: ["équipe", "equipe", "qui", "vous êtes"], reply: "Tech-Deal rassemble 6 experts passionnés en tech, design et stratégie. Découvrez-les sur la page À propos." },
   { keywords: ["merci", "thanks"], reply: "Avec plaisir ! 🧡 Autre chose ?" },
 ];
 
@@ -23,7 +23,7 @@ const Chatbot = () => {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [msgs, setMsgs] = useState<Msg[]>([
-    { role: "bot", text: "Bonjour 👋 Je suis Xela, votre assistante Tech-Xel. Posez-moi votre question !" },
+    { role: "bot", text: "Bonjour 👋 Je suis Xela, votre assistante Tech-Deal. Posez-moi votre question !" },
   ]);
   const endRef = useRef<HTMLDivElement>(null);
 
@@ -61,7 +61,7 @@ const Chatbot = () => {
             </div>
             <div>
               <p className="font-display font-semibold leading-tight">Xela</p>
-              <p className="font-sans text-xs text-white/70">Assistante Tech-Xel · en ligne</p>
+              <p className="font-sans text-xs text-white/70">Assistante Tech-Deal · en ligne</p>
             </div>
           </div>
           <div className="h-80 overflow-y-auto bg-muted/40 p-4 space-y-3">

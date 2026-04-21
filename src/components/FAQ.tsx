@@ -1,7 +1,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Combien coûte un projet avec Tech-Xel ?", a: "Chaque projet est unique. Après un premier échange gratuit, nous vous remettons un devis détaillé sous 24 à 48h. Nos forfaits démarrent à 500 000 FCFA pour un site vitrine." },
+  { q: "Combien coûte un projet avec Tech-Deal ?", a: "Chaque projet est unique. Après un premier échange gratuit, nous vous remettons un devis détaillé sous 24 à 48h. Nos forfaits démarrent à 500 000 FCFA pour un site vitrine." },
   { q: "Quels sont les délais de réalisation ?", a: "Un site vitrine prend 2 à 4 semaines, une application mobile 6 à 12 semaines et une plateforme SaaS 3 à 6 mois selon la complexité." },
   { q: "Travaillez-vous uniquement au Sénégal ?", a: "Non. Bien que basés à Dakar, nous accompagnons des clients dans toute l'Afrique de l'Ouest, en Europe et en Amérique du Nord." },
   { q: "Assurez-vous la maintenance après livraison ?", a: "Oui. Nous proposons des forfaits de maintenance mensuelle (mises à jour, sauvegardes, support) adaptés à votre projet." },
